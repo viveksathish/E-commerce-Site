@@ -42,7 +42,7 @@ export default class SignUp extends Component {
         confirmPassword: "",
       });
     } catch (error) {
-        console.log(error.message)
+        console.log(error)
     }
   };
 
